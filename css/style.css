@@ -1,0 +1,54 @@
+table, tr, th, td {
+    border: 1px solid black;
+}
+
+th{
+    background-color: burlywood;
+    text-decoration: underline;
+}
+
+td{
+    background-color: darkcyan;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1, h2{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a{
+    color: blue;
+}
+
+h1{
+    margin: 0;
+}
+
+hr{
+    width: 80%;
+    background: black;
+    height: 0.5%;
+    border-radius: 25%;
+}
+
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    flex-direction: column; /* Asegura que el contenido esté en columna */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    margin: 0;
+    font-size: 1.5em;
+}
+
+li {
+    display: inline;
+}
+
+.ocultar {
+    visibility: hidden;
+}
